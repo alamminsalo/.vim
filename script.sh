@@ -43,13 +43,4 @@ sudo make install
 sudo apt-get remove -y firefox pidgin mono-xbuild automake autoconf libmono-cairo2.0-cil gtk-sharp2 libmono-cil-dev libncurses5-dev libgnome2-dev libgnomeui-dev libgtk2.0-dev libatk1.0-dev libbonoboui2-dev libcairo2-dev libx11-dev libxpm-dev python-dev mercurial libxt-dev 
 sudo apt-get autoremove -y && sudo apt-get clean
 
-echo "Installing proprietary software.."
-./Downloads/qt-opensource-linux-x64-5.3.2.run
-thunar ./Downloads/skype-ubuntu-precise_4.3.0.37-1_i386.deb
-thunar ./Downloads/bitwig-studio-1.0.15.deb
-./Downloads/netbeans-8.0.1-javaee-linux.sh
-thunar ./Downloads/teamviewer_linux.deb
-
-sudo cp ./Downloads/Bitwig 1.0.x Crack Only Win OSX Linux [licnep]/libs.jar /opt/bitwig-studio/bin/libs.jar
-
 echo "All done! Reboot please"
